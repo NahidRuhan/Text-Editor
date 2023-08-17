@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        
+    </style>
+
+</head>
+<body class="bg-blue-700">
+    <section class="text-center">
+    <h1 class="my-10 font-extrabold text-2xl">My Text Editor</h1>
+
+    <section class="flex justify-center gap-60 bg-blue-400">
+        <div  class="flex gap-10">
+            <button id="bold">B</button>
+            <button id="italic">I</button>
+            <button id="underline">U</button>
+        </div>
+        <div  class="flex gap-10">
+            <button id="left"><i class="fa-solid fa-align-left"></i></button>
+            <button id="center"><i class="fa-solid fa-align-center"></i></button>
+            <button id="right"><i class="fa-solid fa-align-right"></i></button>
+        </div>
+        <div  class="flex gap-10">
+            <input class="w-1/4" type="number" name="" id="font">
+            <button id="case">aA</button>
+            <input type="color" name="" id="color">
+        </div>
+    </section>
+    <section>
+        <hr>
+        <textarea class="mt-10" name="" id="area" cols="100" rows="10"></textarea>
+    </section>
+    </section>
+
+    <script src="./src/utilities.js"></script>
+    <script src="./src/textEditor.js"></script>
+    
+</body>
+</html>
