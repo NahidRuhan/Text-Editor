@@ -91,6 +91,9 @@ document.getElementById('justified').addEventListener('click', function(){
 })
 
 document.getElementById('font').addEventListener('click', function(){
+    const field = document.getElementById('area')
+    const val = document.getElementById('font').value+'px'
+    field.style.fontSize = val
 
 })
 
@@ -110,7 +113,9 @@ document.getElementById('case').addEventListener('click', function(){
 })
 
 document.getElementById('color').addEventListener('click', function(){
-    const hex = document.getElementById('color').value
     const field = document.getElementById('area')
+    const val = document.getElementById('color').value
+    field.style.color = val
+
 
 })
