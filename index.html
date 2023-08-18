@@ -6,9 +6,6 @@
     <title>Text Editor</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        
-    </style>
 
 </head>
 <body class="bg-blue-700">
@@ -17,18 +14,19 @@
 
     <section class="flex justify-center gap-60 bg-blue-400">
         <div  class="flex gap-10">
-            <button id="bold">B</button>
-            <button id="italic">I</button>
-            <button id="underline">U</button>
+            <button id="bold" class="font-extrabold hover:bg-violet-600">B</button>
+            <button id="italic" class="italic hover:bg-violet-600">I</button>
+            <button id="underline" class="underline hover:bg-violet-600">U</button>
         </div>
         <div  class="flex gap-10">
-            <button id="left"><i class="fa-solid fa-align-left"></i></button>
-            <button id="center"><i class="fa-solid fa-align-center"></i></button>
-            <button id="right"><i class="fa-solid fa-align-right"></i></button>
+            <button id="left" class="hover:bg-violet-600"><i class="fa-solid fa-align-left"></i></button>
+            <button id="center" class="hover:bg-violet-600"><i class="fa-solid fa-align-center"></i></button>
+            <button id="right" class="hover:bg-violet-600"><i class="fa-solid fa-align-right"></i></button>
+            <button id="justified" class="hover:bg-violet-600"><i class="fa-solid fa-align-justify"></i></button>
         </div>
         <div  class="flex gap-10">
             <input class="w-1/4" type="number" name="" id="font">
-            <button id="case">aA</button>
+            <button id="case" class="hover:bg-violet-600">aA</button>
             <input type="color" name="" id="color">
         </div>
     </section>
